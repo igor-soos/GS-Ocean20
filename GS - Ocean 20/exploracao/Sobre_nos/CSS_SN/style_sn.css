@@ -1,0 +1,101 @@
+.titulo_principal{ /*Fonte do Google Fonts*/
+    text-align: center;  
+    color: rgb(255, 255, 255);
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 300%;
+}
+
+h2,h3{ /*Fonte do Google Fonts*/
+    color: rgb(0, 0, 0);
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+body{
+    
+    background-color: rgb(0, 0, 0);
+}
+
+p{ /*Fonte do Google Fonts*/
+    text-align: justify;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a,a:hover,a:visited,a:active{ /*edição dos links do sumário*/
+    color: black;
+    text-decoration: none;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 80%;
+}
+
+.body_SN{ /*imagem de fundo do site*/
+    background-image: url("../../../img/OceanUpBackground.png");
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.div_SN{ /*div principal com uso de flexbox*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color:rgba(211, 211, 211, 0.4);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-color: aqua;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.listaexploracao{
+    text-align: center;
+}
+
+footer {  /*uso de flexbox*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 98%;
+    height: 2%;
+    background-image: linear-gradient(#a5c7cc,#62949c);
+    text-align: center;
+    padding: 10px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+button{
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+img{
+    position: relative;
+    width: 600px;
+    height: 300px;
+    padding-left: 10%;
+}

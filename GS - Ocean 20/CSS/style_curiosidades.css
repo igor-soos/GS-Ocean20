@@ -1,0 +1,194 @@
+.C_h1{
+    display: flex;
+    background-image: radial-gradient(#a5c7cc,#62949c9f);
+    box-sizing: content-box;
+    border-radius: 50%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.C_h3{
+    display: flex;
+    background-image: linear-gradient(60deg,#8fa9adfb,#54808649);
+    box-sizing: content-box;
+
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+.div_button{
+    text-align: center;
+}
+
+.button1{
+    background-color: blueviolet;
+    font-size: 200%;
+}
+
+.button2{
+    background-color: rgb(255, 35, 90);
+    font-size: 200%;
+}
+
+.button3{
+    background-color: rgb(255, 0, 0);
+    font-size: 200%;
+}
+
+.button4{
+    background-color: rgb(110, 226, 43);
+    font-size: 200%;
+}
+
+.button5{
+    background-color: rgb(0, 255, 136);
+    font-size: 200%;
+}
+.button6{
+    
+    background-color: rgb(232, 236, 0);
+    font-size: 200%;
+}
+.button7{
+    background-color: rgb(38, 0, 255);
+    font-size: 200%;
+}
+
+.button8{
+    background-color: rgb(0, 228, 197);
+    font-size: 200%;
+}
+
+.button9{
+    background-color: rgb(255, 0, 242);
+    font-size: 200%;
+}
+
+.button10{
+    background-color: rgb(255, 102, 0);
+    font-size: 200%;
+}
+
+#C1{
+    display: flex;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index: 10;
+    padding: 20px;
+    color: black;
+    background-image: linear-gradient(to right, blueviolet,rgb(68, 36, 214))
+}
+
+#C2{
+    display: none;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index: 10;
+    padding: 20px;
+    color: black;
+    background-image: linear-gradient(to right, rgb(255, 80, 226),rgb(255, 255, 255))
+}
+
+#C3{
+    display: none;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index: 10;
+    padding: 20px;
+    color: black;
+    background-image: linear-gradient(to right, rgb(255, 33, 33),rgb(255, 153, 0))
+}
+
+#C4{
+    display: none;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index: 10;
+    padding: 20px;
+    color: black;
+    background-image: linear-gradient(to right, rgb(78, 255, 33),rgb(0, 255, 157))
+}
+
+#C5{
+    display: none;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index: 10;
+    padding: 20px;
+    color: black;
+    background-image: linear-gradient(to right, rgb(0, 255, 157),rgb(0, 204, 255))
+}
+
+#C6{
+    display: none;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index: 10;
+    padding: 20px;
+    color: black;
+    background-image: linear-gradient(to right,rgb(19, 239, 255), rgb(251, 255, 42))
+}
+
+#C7{
+    display: none;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index: 10;
+    padding: 20px;
+    color: black;
+    background-image: linear-gradient(to right, rgb(25, 0, 255),rgb(60, 255, 206))
+}
+
+#C8{
+    display: none;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index: 10;
+    padding: 20px;
+    color: black;
+    background-image: linear-gradient(to right, rgb(0, 255, 255),rgb(234, 0, 255))
+}
+
+#C9{
+    display: none;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index: 10;
+    padding: 20px;
+    color: black;
+    background-image: linear-gradient(to right, rgb(255, 0, 221),rgb(218, 255, 55))
+}
+
+#C10{
+    display: none;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index: 10;
+    padding: 20px;
+    color: black;
+    background-image: linear-gradient(to right, rgb(255, 196, 0),rgb(36, 1, 196))
+}
